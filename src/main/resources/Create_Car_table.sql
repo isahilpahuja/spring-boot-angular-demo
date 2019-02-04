@@ -1,0 +1,21 @@
+  CREATE TABLE `car` (
+  `id` bigint(20) NOT NULL,
+  `body` varchar(255) DEFAULT NULL,
+  `color` varchar(255) DEFAULT NULL,
+  `drivetrain` varchar(255) DEFAULT NULL,
+  `image` longblob,
+  `make` varchar(255) DEFAULT NULL,
+  `model` varchar(255) DEFAULT NULL,
+  `price` decimal(10,2) DEFAULT NULL,
+  `transmission` varchar(255) DEFAULT NULL,
+  `trim` varchar(255) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `year` int(11) DEFAULT NULL,
+  `picture` varchar(255) DEFAULT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `last_name` varchar(255) DEFAULT NULL,
+  `phone` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
